@@ -10,7 +10,10 @@ const styles = theme =>({
     },
     menuButton:{
         marginLeft: -12,
-        marginRight: 20
+        marginRight: 20,
+        "& span":{
+            marginBottom:3
+        }        
     },
     title:{
     display:"none",
